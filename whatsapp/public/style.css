@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+body{
+    background: rgb(0,150,136);
+    background: linear-gradient(180deg, rgba(0,150,136,1) 0%, rgba(0,150,136,1) 15%, rgba(217,219,212,1) 15%);
+    min-height: 100%;
+}
+.principal{
+    min-height:900px;
+    box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
+}
+.conversas{
+    background:white;
+}
+.conversa-ativa{
+    background:#E5DDD5;
+}
+.conversa{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
