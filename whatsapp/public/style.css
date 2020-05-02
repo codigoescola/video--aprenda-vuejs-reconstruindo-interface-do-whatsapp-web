@@ -11,13 +11,38 @@ body{
     box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
 }
 .conversas{
+    padding: 0;
     background:white;
 }
 .conversa-ativa{
+    padding: 0;
     background:#E5DDD5;
+    position: relative;
 }
 .conversa{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding: 20px 0;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 15px 30px;
+    margin-bottom: 0 !important;
+}
+.conversa:hover{
+    background: #F5F5F5;
+    cursor: pointer;
+}
+.subtitle{
+    color: gray;
+}
+.top-bar{
+    margin: 0;
+    height: 50px;
+    background: #EDEDED;
+    border-right: 1px solid #E1E1E1;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.bottom-bar{
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    background: #f0f0f0;
 }
