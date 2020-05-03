@@ -88,9 +88,53 @@ export default {
     min-height: 1200px;
     box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
 }
+/* Barra Superior */
+.barra-superior{
+    margin: 0;
+    height: 50px;
+    background: #EDEDED;
+    border-right: 1px solid #E1E1E1;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.barra-superior span{
+    line-height: 50px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
 /* Coluna Esquerda */
 .lista-de-conversas{
     padding: 0;
     background:white;
+}
+
+/* Coluna Direita */
+.conversa-ativa{
+    padding: 0;
+    background:#E5DDD5;
+    position: relative;
+}
+.lista-mensagens{
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+/* Barra Inferior */
+.barra-inferior{
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    background: #f0f0f0;
+}
+.barra-inferior input{
+    border:none;
+    padding: 10px;
+    margin: 0 50px;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 16px;
 }
 </style>

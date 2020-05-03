@@ -13,8 +13,13 @@ export default {
 </script>
 
 <style>
+  .subtitle{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: gray;
+  }
   .item{
-      border-top: 1px solid #F2F2F2;
       border-bottom: 1px solid #F2F2F2;
       padding: 15px 30px;
       margin-bottom: 0 !important;
