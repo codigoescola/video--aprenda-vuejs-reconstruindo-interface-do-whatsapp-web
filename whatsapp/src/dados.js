@@ -3,14 +3,14 @@ const conversasIniciais = [
         "usuario": "Steve Jobs",
         "mensagens": [
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube!",
+                "horario": "10:15",
+                "conteudo": "Jobs, quando sai o novo Iphone?",
                 "verde": true
             },
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube2!",
-                "verde": true
+                "horario": "10:15",
+                "conteudo": "Em setembro de 2019",
+                "verde": false
             },
         ]
     },
@@ -18,13 +18,13 @@ const conversasIniciais = [
         "usuario": "Bill Gates",
         "mensagens": [
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube!",
-                "verde": true
+                "horario": "10:15",
+                "conteudo": "Eu queria umas dicas suas para o próximo Windows!",
+                "verde": false
             },
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube!",
+                "horario": "10:15",
+                "conteudo": "Não sei se consigo... Estou meio enrolado.",
                 "verde": true
             },
         ]
@@ -33,14 +33,14 @@ const conversasIniciais = [
         "usuario": "Jeff Bezos",
         "mensagens": [
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube!",
-                "verde": true
+                "horario": "10:15",
+                "conteudo": "O que você achou do novo recurso da AWS?!",
+                "verde": false
             },
             {
-                "hora": "10:15",
-                "conteudo": "Ola Youtube!",
-                "verde": true
+                "horario": "10:15",
+                "conteudo": "?!",
+                "verde": false
             },
         ]
     }

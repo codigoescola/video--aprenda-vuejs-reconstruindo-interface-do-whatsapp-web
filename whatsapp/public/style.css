@@ -15,21 +15,7 @@ body{
     border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-/* Coluna Esquerda */
-.lista-de-conversas{
-    padding: 0;
-    background:white;
-}
-.item{
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    padding: 15px 30px;
-    margin-bottom: 0 !important;
-}
-.item:hover{
-    background: #F5F5F5;
-    cursor: pointer;
-}
+
 
 /* Coluna Direita */
 .conversa-ativa{
