@@ -18,6 +18,7 @@
             <div class="top-bar">
               <span>Usuario</span>
             </div>
+            <div class="mensagens">
             <div class="mensagem-usuario">
               Esta é uma mensagem do usuário de lá.
               <span>10:15</span>
@@ -29,6 +30,7 @@
             <div class="mensagem-usuario local">
               Esta é uma mensagem do usuário de lá.
               <span>10:15</span>
+            </div>
             </div>
             <div class="bottom-bar">
               <input type="text" class="input" placeholder="Insira sua mensagem">

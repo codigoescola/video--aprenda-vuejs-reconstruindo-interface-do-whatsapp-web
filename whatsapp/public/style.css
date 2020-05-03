@@ -18,9 +18,13 @@ body{
     padding: 0;
     background:#E5DDD5;
     position: relative;
-    /* display: flex;
+    
+}
+.mensagens{
+    height: 85%;
+    display: flex;
     justify-content: flex-end;
-    flex-direction: column; */
+    flex-direction: column;
 }
 .conversa{
     border-top: 1px solid #F2F2F2;
@@ -74,7 +78,7 @@ body{
 }
 .mensagem-usuario.local{
     background: rgb(220, 248, 198);
-    float: right;
+    align-self:  flex-end;
 }
 
 .mensagem-usuario span{
