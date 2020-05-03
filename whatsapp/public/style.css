@@ -6,59 +6,62 @@ body{
     background: linear-gradient(180deg, rgba(0,150,136,1) 0%, rgba(0,150,136,1) 15%, rgba(217,219,212,1) 15%);
     min-height: 100%;
 }
-.principal{
-    min-height:900px;
+.janela-principal{
+    min-height: 1200px;
     box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
 }
-.conversas{
-    padding: 0;
-    background:white;
-}
-.conversa-ativa{
-    padding: 0;
-    background:#E5DDD5;
-    position: relative;
-    
-}
-.mensagens{
-    height: 85%;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-.conversa{
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    padding: 15px 30px;
-    margin-bottom: 0 !important;
-}
-.conversa:hover{
-    background: #F5F5F5;
-    cursor: pointer;
-}
-.subtitle{
-    color: gray;
-}
-.top-bar{
+.barra-superior{
     margin: 0;
     height: 50px;
     background: #EDEDED;
     border-right: 1px solid #E1E1E1;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
-.top-bar span{
+
+/* Coluna Esquerda */
+.lista-de-conversas{
+    padding: 0;
+    background:white;
+}
+.item{
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 15px 30px;
+    margin-bottom: 0 !important;
+}
+.item:hover{
+    background: #F5F5F5;
+    cursor: pointer;
+}
+
+/* Coluna Direita */
+.conversa-ativa{
+    padding: 0;
+    background:#E5DDD5;
+    position: relative;
+}
+.lista-mensagens{
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.subtitle{
+    color: gray;
+}
+.barra-superior span{
     line-height: 50px;
     margin-left: 25px;
     font-weight: 500;
 }
-.bottom-bar{
+.barra-inferior{
     bottom:0;
     width: 100%;
     padding: 10px;
     position: absolute;
     background: #f0f0f0;
 }
-.bottom-bar input{
+.barra-inferior input{
     border:none;
     padding: 10px;
     margin: 0 50px;
@@ -67,7 +70,7 @@ body{
     font-size: 16px;
 }
 
-.mensagem-usuario{
+.mensagem{
     font-size: 14px;
     box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px 0px;;
     background: white;
@@ -76,14 +79,12 @@ body{
     border-radius: 5px;
     width: fit-content;
 }
-.mensagem-usuario.local{
+.mensagem.verde{
     background: rgb(220, 248, 198);
     align-self:  flex-end;
 }
-
-.mensagem-usuario span{
+.mensagem span{
     margin-left: 25px;
     font-size: 11px;
     color: gray;
-  
 }
