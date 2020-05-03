@@ -18,6 +18,9 @@ body{
     padding: 0;
     background:#E5DDD5;
     position: relative;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: column; */
 }
 .conversa{
     border-top: 1px solid #F2F2F2;
@@ -39,10 +42,44 @@ body{
     border-right: 1px solid #E1E1E1;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
+.top-bar span{
+    line-height: 50px;
+    margin-left: 25px;
+    font-weight: 500;
+}
 .bottom-bar{
     bottom:0;
     width: 100%;
     padding: 10px;
     position: absolute;
     background: #f0f0f0;
+}
+.bottom-bar input{
+    border:none;
+    padding: 10px;
+    margin: 0 50px;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.mensagem-usuario{
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px 0px;;
+    background: white;
+    margin: 5px 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.mensagem-usuario.local{
+    background: rgb(220, 248, 198);
+    float: right;
+}
+
+.mensagem-usuario span{
+    margin-left: 25px;
+    font-size: 11px;
+    color: gray;
+  
 }

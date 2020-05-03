@@ -15,11 +15,24 @@
             </div>
           </div>
           <div class="column conversa-ativa">
-            <div class="top-bar"/>
-            <div class="bottom-bar">
-              <input type="text" placeholder="Insira sua mensagem">
+            <div class="top-bar">
+              <span>Usuario</span>
             </div>
-            <!-- Conversa Ativa -->
+            <div class="mensagem-usuario">
+              Esta é uma mensagem do usuário de lá.
+              <span>10:15</span>
+            </div>
+            <div class="mensagem-usuario">
+              Esta é uma mensagem do usuário de lá.
+              <span>10:15</span>
+            </div>
+            <div class="mensagem-usuario local">
+              Esta é uma mensagem do usuário de lá.
+              <span>10:15</span>
+            </div>
+            <div class="bottom-bar">
+              <input type="text" class="input" placeholder="Insira sua mensagem">
+            </div>
           </div>
         </div>
       </div>
