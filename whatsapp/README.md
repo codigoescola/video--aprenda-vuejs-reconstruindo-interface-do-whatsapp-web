@@ -1,24 +1,17 @@
 # whatsapp
 
-## Project setup
+## Instalar depêndencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Executar servidor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
